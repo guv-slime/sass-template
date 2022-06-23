@@ -1,8 +1,7 @@
 @use 'abstracts';
-@use 'components/buttons';
-
-
-p {
-  color: abstracts.$blue;
-  font-size: abstracts.$font-size;
-}
+@use 'base';
+@use 'components';
+@use 'layout';
+@use 'pages';
+@use 'themes';
+@use 'vendors';
